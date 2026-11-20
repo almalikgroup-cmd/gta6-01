@@ -1,0 +1,19 @@
+/* SOLMAR HEAT — page chrome. The game itself is one full-window canvas. */
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: radial-gradient(120% 100% at 50% 0%, #1b2340 0%, #0d0f16 62%);
+}
+
+#game {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  background: #101018;
+  cursor: crosshair;
+  touch-action: none;
+}
